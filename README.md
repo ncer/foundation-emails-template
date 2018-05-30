@@ -1,6 +1,6 @@
 # Foundation for Emails Template
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
+[![devDependency Status](https://david-dm.org/ncer/foundation-emails-template/dev-status.svg)](https://david-dm.org/ncer/foundation-emails-template#info=devDependencies)
 
 Установка [описана в исходном репозитории](https://github.com/zurb/foundation-emails-template).
 
