@@ -12,6 +12,7 @@ import path     from 'path';
 import merge    from 'merge-stream';
 import beep     from 'beepbeep';
 import colors   from 'colors';
+import rename   from 'gulp-rename';
 
 const $ = plugins();
 
@@ -94,6 +95,10 @@ function images() {
 function inline() {
   return gulp.src('dist/**/*.html')
     .pipe($.if(PRODUCTION, inliner('dist/css/app.css')))
+    .pipe(gulp.dest('dist'))
+    .pipe(rename(function (path) {
+      path.extname = '.tpl.php'
+    }))
     .pipe(gulp.dest('dist'));
 }
 
