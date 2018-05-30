@@ -4,6 +4,58 @@
 
 Установка [описана в исходном репозитории](https://github.com/zurb/foundation-emails-template).
 
+## Быстрые подсказки по верстке
+
+### Блок ограниченной ширины по центру экрана
+
+```html
+<container></container>
+```
+
+### Блок на всю ширину экрана
+
+```html
+<wrapper></wrapper>
+```
+
+### Вертикальные отступы
+
+```html
+<spacer size="100"></spacer>
+```
+
+Создаст таблицу высотой 100px - железобетонный вариант, работающий везде (даже в Outlook).
+
+### Колонки
+
+```html
+<container>
+  <row>
+    <columns small="12" large="4"></columns>
+    <columns small="12" large="4"></columns>
+    <columns small="12" large="4"></columns>
+  </row>
+</container>
+```
+
+### Схлопнутый блок (без внутренних отступов)
+
+```html
+<container>
+  <row class="collapse"></row>
+</container>
+```
+
+### Кнопка
+
+```html
+<button href="">Button</button>
+```
+
+Создаст ссылку в таблице - железобетонный вариант, работающий везде (даже в Outlook).
+
+Больше примеров в [официальной документации](https://foundation.zurb.com/emails/docs/).
+
 ## Особенности почтовых клиентов
 
 ### Yandex
